@@ -18,7 +18,7 @@ This is a little guide to help you get introduced to git.
 5. `git commit -m "Created file"` (Creates a commit with the given commit message)
 6. Open file.txt and type "Hello World". Save, close.
 7. `git diff` (Shows the difference between your working directory and the git repo)
-9. `git add .` (Adds files in the current directory)
+9. `git add .` (Adds files in the current directory recursively)
 10. `git status` (Shows the changes that will happen when you commit)
 11. `git commit -m "Added text"`
 
