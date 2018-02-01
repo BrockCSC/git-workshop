@@ -37,5 +37,3 @@ This is a little guide to help you get introduced to git.
 12. Now we will get it onto your computer
 13. `git pull`
 14. Go to your folder, and you will see that the new file is there
-
-
