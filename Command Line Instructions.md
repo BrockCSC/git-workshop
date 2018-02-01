@@ -37,3 +37,26 @@ This is a little guide to help you get introduced to git.
 12. Now we will get it onto your computer
 13. `git pull`
 14. Go to your folder, and you will see that the new file is there
+
+# Part 3: Working with another repo and Branches
+1. Go to https://github.com/BrockCSC/git-workshop
+2. Click "Clone or download" and copy the url
+3. Go to your terminal and navigate to a folder that you want the git-workshop folder in. (Cloning creates the folder for you wherever you working directory currently is)
+4. `git clone [url]`
+5. Now you have the repo locally.
+6. Create a branch with your name
+    * `git branch Jesse`
+7. Navigate to the branch
+    * `git checkout Jesse`
+8. Create some files.
+9. Add and commit them.
+10. Check the differences between your branch and the master branch
+    * `git diff master` (master is the base branch)
+11. Checkout the master branch again
+12. Now the file you made is gone from your folder! Don't worry, it is still on your branch.
+    * `git diff Jesse`
+13. Get someone to add you as a collaborator to the repo (Igor or Jesse)
+14. Once done, switch to your branch and `git push`.
+15. Git will tell you there is no branch called that, so do the command it tells you to do
+    * `git push --set-upstream origin Jesse`
+16. Now go to https://github.com/BrockCSC/git-workshop and you'll see your branch under "branches"

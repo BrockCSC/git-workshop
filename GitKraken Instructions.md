@@ -43,3 +43,19 @@ This is a little guide to help you get introduced to using git with GitKraken
 13. On GitKraken, click the "Pull" button.
 14. Now your local repo is up to date.
 
+# Part 3: Working with another repo and Branches
+1. Go to https://github.com/BrockCSC/git-workshop
+2. Click "Clone or download" and copy the url
+3. Go to GitKraken, click "File -> Clone Repo".
+4. Select a location to clone to, and copy the paste the URL. Click "Clone the repo!"
+5. Open the folder in GitKraken
+6. Create a branch with your name
+    * Click the "Branch" button at the top, and type in your name.
+7. Create some files.
+8. Add and commit them.
+10. Check the differences between your branch by clicking on the commit in the GUI and selecting the file.
+11. Checkout the master branch by double clicking on the branch on the left side.
+12. You will see the file is now gone from your folder. But it is still on your branch. You can see this because the highlighted commit in GitKraken is one before the branch you created.
+13. Get someone to add you as a collaborator to the repo.
+14. Once done, switch to your branch, and push it. Click Submit
+15. Now go to https://github.com/BrockCSC/git-workshop and you'll see your branch under "branches"
