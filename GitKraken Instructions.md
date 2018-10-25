@@ -45,7 +45,10 @@ This is a little guide to help you get introduced to using git with GitKraken
 
 # Part 3: Working with another repo and Branches
 1. Go to https://github.com/BrockCSC/git-workshop
-2. Click "Clone or download" and copy the url
+2. Click the "Fork" icon in the top right to fork this repo to your github
+   account.
+3. Navigate to your github page
+   (`https://github.com/<your_user_name>/git-workshop`) Click "Clone or download" and copy the url
 3. Go to GitKraken, click "File -> Clone Repo".
 4. Select a location to clone to, and copy the paste the URL. Click "Clone the repo!"
 5. Open the folder in GitKraken
