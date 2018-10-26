@@ -43,12 +43,11 @@ This is a little guide to help you get introduced to git.
 2. Click the "Fork" icon in the top right to fork this repo to your github
    account.
 3. Navigate to your github page
-   ("https://github.com/<your_user_name>/git-workshop") Click "Clone or download" and copy the url
-4. Go to your terminal and navigate to a folder that you want the git-workshop folder in. (Cloning creates the folder for you wherever you working directory currently is)
-4. `git clone [url]`
+   (`https://github.com/<your_user_name>/git-workshop`) Click "Clone or download" and copy the url
+4. Go to your terminal and navigate to a folder that you want the git-workshop folder in. (Cloning creates the folder for you wherever you working directory currently is). Type `git clone [url]` in your terminal.
 5. Now you have the repo locally.
 6. Set the upstream repository as per
-   [this](https://help.github.com/articles/configuring-a-remote-for-a-fork/) with "git remote add upstream https://github.com/BrockCSC/git-workshop.git"
+   [this](https://help.github.com/articles/configuring-a-remote-for-a-fork/) with `git remote add upstream https://github.com/BrockCSC/git-workshop.git`
 7. Create a branch with your name
     * `git branch Jesse`
 8. Navigate to the branch
@@ -64,7 +63,8 @@ This is a little guide to help you get introduced to git.
 14. Once done, switch to your branch and `git push`.
 15. Git will tell you there is no branch called that, so do the command it tells you to do
     * `git push origin Jesse`
-16. Now go to https://github.com/<your_user_name>/git-workshop and you'll see your branch and changes under "branches"
+16. Now go to `https://github.com/<your_user_name>/git-workshop` and you'll see your branch and changes under "branches"
+
 17. Click on the "Pull request" button in the menu bar just above the repo.
 18. Create a pull request to BrockCSC's master branch. You can see the changes
     between your commit and master. You should only see the changes that you
@@ -73,5 +73,6 @@ This is a little guide to help you get introduced to git.
 19. Someone from the CSC will review your code and merge your request.
 20. Congratulations, you have made your first open-source contribution! Now you
     can check out any of the literally thousands of open-source repos and do
-    the same! (I recomment
+    the same! (I recommend
+
     [Kubernetes](https://github.com/kubernetes/kubernetes/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22))
