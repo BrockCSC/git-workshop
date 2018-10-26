@@ -1,3 +1,5 @@
+//Copy and paste from original commit and recommit
+//prior to next git workshop
 public class Fixme {
     public static void main(String[] args) {
         final int NUM_FACTS = 5;
