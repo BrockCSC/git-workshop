@@ -1,8 +1,8 @@
-/*Fixme pleez
+/*Fixme please
  */
 
 
-// Fixme is a brwkln program. Please fix.
+// Fixme is a broken program. Please fix.
 public class Fixme
 {
     // what should this do?
@@ -13,7 +13,6 @@ public class Fixme
         for(int i = 0; i < NUM_FACTS; i++)
 
 			System.out.println( i + "! is " + factorial(i));
-			System.out.println( "delete this line!");
 
         System.out.println( "print something when it's done!");
 
