@@ -4,10 +4,10 @@ public class Fixme {
     public static void main(String[] args) {
         final int NUM_FACTS = 5;
 
-        for(int i = 0; i < NUM_FACTS; i++)
-
-            System.out.println( i + "! is " + factorial(i));
-        System.out.println("Calculation done");
+        for(int i = 0; i < NUM_FACTS; i++) {
+        	System.out.println( i + "! is " + factorial(i));
+        	System.out.println("Calculation done");
+	}
     }
 
     public static int factorial(int n) {
